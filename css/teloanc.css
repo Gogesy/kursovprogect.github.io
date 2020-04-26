@@ -1,0 +1,291 @@
+.vac
+  {       
+           
+    background-color: #20152c;
+   
+    font-size: 12.5pt;
+
+    text-align: center;
+    color: #fff;
+     padding: 9px 0;
+   
+  }
+
+.vac1
+  {       
+           
+    background-color: #20152c;
+   
+    font-size: 12.5pt;
+
+    text-align: center;
+    color: #fff;
+     padding: 9px 0;
+     margin: 20px 0;
+   
+  }
+
+.telo
+{ width: 650PX;
+background-color: #fff;
+margin: 20PX auto;
+
+  }
+
+ .telobig
+ { width: 1000PX;
+background-color: #fff;
+margin: 20PX auto;
+
+padding: 40px 0;
+ 
+ 
+background-color: #fff;
+margin: 60px auto;
+
+font-size: 15pt;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.teloact
+{  
+ padding: 40px 0;
+ 
+ width: 650PX;
+background-color: #fff;
+margin: 60px auto;
+border-radius: 6px;
+text-align: center;
+vertical-align: center;
+font-size: 15pt;
+  }
+
+
+
+
+.text {
+  padding: 20px 10%; 
+  color: #000;
+
+}
+.text p
+{
+  font-size:15pt;
+
+}
+
+
+
+
+
+
+.cent
+{text-align: center;
+margin: 20PX 0; 
+font-size: 15pt;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 700px) {
+
+.vac
+{
+
+padding: 15px 0;
+}
+.telo
+{ margin: 0 0 15px 0px;
+
+  width: 100%;
+background-color: #fff;
+
+  }
+
+  .vac1
+  {       
+           
+    
+     margin: 0px 0;
+   
+  }
+
+
+  .teloact
+{  
+ width: 100%;
+  }
+
+}
+input {
+border-bottom-style: solid;
+border-top-style: hidden;
+border-right-style:hidden;
+border-left-style: hidden;
+background: white;
+margin: 10px;
+width: 200px;
+color: #6a5acd;
+padding: 10px;
+position: center;
+}
+select
+{border-bottom-style: solid;
+border-top-style: hidden;
+border-right-style:hidden;
+border-left-style: hidden;
+background: white;
+margin: 10px;
+width: 200px;
+color: #6a5acd;
+padding: 10px;
+position: center;}
+ .button {
+    background-color:  #20152c; 
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    margin: -15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12.5pt;
+
+    cursor: pointer;
+}
+
+
+
+
+
+.vxod
+{background-color:  #20152c; 
+    }
+
+  
+.closs
+{background-color: #6a5acd;
+color:  #20152c;
+
+}
+
+#formP
+{display: none;}
+
+#soon
+{display: none;}
+
+ img {display: block;
+      margin: 10% 0;}
+
+
+
+
+
+
+.poster
+{padding-top: 30px ;
+
+display: inline-block;}
+
+.opisfilm
+{
+padding: 50px 30px;
+width: 600px;
+
+display: inline-block;
+
+position: absolute;
+
+}
+
+.traler
+{
+  padding-top:  20px ;
+  padding-bottom: 30px; 
+
+
+}
+
+
+
+.traler2
+{
+  display: none;
+}
+#form2
+
+{
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 1100px) {
+
+ .telobig
+ { width: 100%;
+
+
+  }
+
+.opisfilm
+{
+
+width: 46%;
+
+padding: 20px 0px 50px 20px;
+
+}
+
+
+
+
+  
+
+.poster
+{padding: 5px;
+}
+
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 700px) {
+.traler
+{
+  display: none;
+
+}
+.traler2
+{
+  display: inline;
+  position: center
+}
+}
+
+.errorpass
+{
+  position: left;
+  color: red;
+  font-size: 12px;
+  
+  display: none;
+
+}
