@@ -1,0 +1,620 @@
+
+
+* { margin: 0; padding: 0; }
+body
+{  
+    
+    font-family: 'ofont.ru_Myriad Pro';
+    background-color: #19072C;
+        
+}
+@font-face{
+
+    font-family: 'ofont.ru_Myriad Pro';
+    src: url('../fonts/ofont.ru_Myriad Pro.ttf') format('truetype');
+    
+    font-weight: normal;
+    font-style: normal;
+    
+    }
+
+@font-face{
+
+    font-family: 'ofont.ru_Myriad Pro r';
+    src: url('../fonts/ofont.ru_Myriad Pro r.ttf') format('truetype');
+    
+    font-weight: normal;
+    font-style: normal;
+    
+    }
+    nav {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top: -20px ;
+    
+background-color: #fff; 
+}
+
+@media screen and (min-width: 900px) {
+    nav ul {
+    
+    padding-left:20%;
+    padding-right:20%;
+  
+  list-style: none;
+  position: relative;
+
+
+  }
+
+
+nav a
+{
+    display: block;
+    color: black;
+    
+    text-decoration:none ;
+    
+      
+}
+.menu
+{
+    font-size: 12.5pt;
+    margin-right:  40px;
+    margin-left:  40px;
+    margin-top: 22px;
+    
+}
+
+.menuM
+{display: none;}
+.menum
+{
+    
+    margin: 0;
+   
+    position: absolute;
+    
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+ .menu :hover {
+    color: #602f93;
+    
+   }
+   
+
+
+ 
+nav ul li:hover > ul {
+    display:inherit;
+
+}   
+
+
+.logo
+{  
+    font-size: 26pt;
+    font-family: 'ofont.ru_Myriad Pro r';
+    padding-bottom: 7px;
+   
+    color: #602f93;
+    
+        
+}
+
+.logo a {color: #602f93;} 
+
+
+.kont
+{      float: right;
+        
+      //background-color: red;
+         margin: 7px 0;
+
+}
+.kont img {
+
+  cursor: pointer;}
+
+
+
+
+
+a.knopka {
+     margin: 6px 19px;
+    border-radius: 5px;
+  color: #fff; /* цвет текста */
+  font-family: 'ofont.ru_Myriad Pro r';
+  font-size: 9pt;
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #602f93; /* фон кнопки */
+  padding: .4em 2.1em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+} 
+a.knopka:hover { background: #47236e; } /* при наведении курсора мышки */
+
+
+  html, body {
+    height: 100%;
+   }
+   body {
+    display: flex;
+    flex-direction: column;
+   }
+   .content {
+    flex: 1 0 auto;
+   }
+   .footer {
+    flex-shrink: 0;
+  display: block;
+
+ 
+    background: #fff;
+    
+     }
+
+ul li
+{
+ display: inline-block;
+ 
+}
+
+
+
+.footer ul {
+    
+    padding-left:20.5%;
+    padding-right:20.5%;
+  
+  
+ 
+
+
+  }
+
+
+.footer a
+{
+    list-style: none;
+    color: black;
+    
+    text-decoration:none ;
+    
+      
+}
+
+.pod{
+
+margin: 0px 10px 0px 10px ;
+ 
+min-height: 2em;
+  margin-left: auto;
+  
+  margin-top: 0em;
+  
+
+}
+
+
+.podscot{
+    font-size: 10pt;
+margin: 30px 0px 30px 0px ;
+}
+
+
+
+.podnaz{
+    font-size: 10pt;
+margin: 30px 0px 30px 0px ;
+ position: absolute;
+    
+    left: 43%;
+    
+    
+
+}
+.menufooterlogo a {
+    color: #602f93;
+    margin-right:  50px;
+    
+font-size: 12.5pt;
+    
+}
+
+.menufooter  {
+    font-size: 12.5pt;
+    margin: 15px 0 0 0;
+   
+     margin-right:  28px;
+    
+    
+    
+   }
+
+.menufooter :hover {
+    color: #602f93;
+    
+   }
+
+ 
+.ssilkna
+{
+ position: absolute;
+    max-width: 14em; /* блок занимает ширину родителя, max-width её ограничивает */
+  min-height: 0em;
+   right: 23%;
+  margin-top: -3.5em;
+
+  
+}
+
+.Mob
+{display: none;}
+
+}
+@media (min-width: 0px) and (max-width: 900px) {
+    nav ul {
+    
+    padding-left:20%;
+    padding-right:20%;
+  
+  list-style: none;
+  position: relative;
+
+
+  }
+
+
+nav a
+{
+    display: block;
+    color: black;
+    
+    text-decoration:none ;
+    
+      
+}
+.menu
+{    display: none;
+    font-size: 12.5pt;
+    margin-right:  40px;
+    margin-left:  40px;
+    margin-top: 22px;
+    
+}
+
+
+
+
+
+ .menu :hover {
+    color: #602f93;
+    
+   }
+   
+.menuP
+{display: none;}
+
+ 
+nav ul li:hover > ul {
+    display:inherit;
+
+}   
+
+
+.logo
+{  
+    font-size: 26pt;
+    font-family: 'ofont.ru_Myriad Pro r';
+    padding-bottom: 7px;
+   
+    color: #602f93;
+    
+        
+}
+
+.logo a {color: #602f93;} 
+
+
+.kont
+{        display: none;
+
+}
+
+.polz
+{  display: none;}
+
+
+
+a.knopka {   
+     
+} 
+a.knopka:hover { background: #47236e; } /* при наведении курсора мышки */
+
+
+html, body {
+    height: 100%;
+   }
+
+body {
+    display: flex;
+    flex-direction: column;
+   }
+
+.content {
+ flex: 1 0 auto;
+}
+
+
+.footer {
+ flex-shrink: 0;
+
+ padding-top: 20px;
+    background: #fff;
+    width: 100%;
+    height: 230px;
+     }
+
+      ul li
+{
+ display: inline-block;
+ 
+}
+
+
+
+.footer ul {
+    
+    padding-left:20.5%;
+    padding-right:20.5%;
+  
+  
+ 
+
+
+  }
+
+
+.footer a
+{
+    list-style: none;
+    color: black;
+    
+    text-decoration:none ;
+    
+      
+}
+
+.pod{
+
+margin: 30px 10px 0px 10px ;
+ 
+
+  
+  
+  
+  
+
+}
+
+
+
+
+
+
+.podnaz{
+    font-size: 10pt;
+margin: 50px 10px 30px 0px ;
+ position: absolute;
+    
+    left: 30%;
+    
+    
+
+}
+.menufooterlogo a {
+    color: #602f93;
+    margin-right:  50px;
+    
+font-size: 14pt;
+    
+}
+
+.menufooter  {
+    font-size: 12.5pt;
+    margin: 5px 0 0 0;
+   
+    
+    
+    
+    
+   }
+
+.menufooter :hover {
+    color: #602f93;
+    
+   }
+
+ 
+
+
+
+
+.Pk
+{display: none;}
+
+.menuM .mobile-menu {
+display:block;
+width:100%;
+background: #fff;
+line-height: 0.8em;
+font-weight: 400;
+text-align:center;
+position: relative;
+margin:0 auto;
+}
+
+.menuM .nav li {
+display:block;
+float: left;
+
+}
+
+nav a
+{
+    display: inline-block;
+    
+    
+    text-decoration:none ;}
+.menuM .nav li a {
+display:block;
+min-width:120px;
+text-align: center;
+
+color: #000;
+
+background: #fff;
+text-decoration: none;
+
+padding: 10px 0; 
+
+}
+
+
+
+
+.mobile-menu .show-menu {
+text-decoration: none;
+color: #000;
+background: #fff;
+text-align: left;
+padding: 20px 15px;
+
+display: none;
+cursor: pointer;
+
+}
+
+.mobile-menu .show-menu span{
+padding-left: 35px;
+}
+
+
+.mobile-menu input[type=checkbox]{
+display: none;
+}
+
+
+.mobile-menu input[type=checkbox]:checked ~ #menu{
+display: block;
+
+}
+
+
+
+.mobile-menu .lines {
+border-bottom: 12px double #000; 
+border-top: 4px solid #000; 
+content:"";
+height: 4px; 
+width:20px;
+padding-right:15px;
+float: right;
+}
+
+.mobile-menu ul {
+
+display: none;
+}
+
+.mobile-menu li {
+margin-bottom: 1px;
+}
+
+.nav ul li, .nav li a {
+width: 100%;
+}
+
+.mobile-menu .show-menu {
+display:block;
+}
+
+
+#slider, ul
+{
+height: 100px;
+
+
+}
+
+#slider
+{
+margin: auto;
+
+
+
+
+box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.25);
+position: relative;
+width: 340px;
+}
+
+#slider li
+{
+float: left;
+position: relative;
+width: 350px;
+height: 200px;
+}
+
+#slider ul
+{
+list-style: none;
+position: absolute;
+left: 0px;
+top: 0px;
+width: 90px;
+
+
+}
+
+
+
+
+
+
+* { margin: 0; padding: 0; }
+body
+{  
+    
+    font-family: 'ofont.ru_Myriad Pro';
+    background-color: #19072C;
+        
+}
+
+
+    .logoM
+{  
+    font-size: 26pt;
+    font-family: 'ofont.ru_Myriad Pro r';
+    padding-bottom: 7px;
+   
+    color: #602f93;
+    
+        
+}
+
+.logoM a {color: #602f93;} 
+
+
+
+
+
+
+
+
+}

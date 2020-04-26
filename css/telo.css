@@ -1,0 +1,228 @@
+
+.container {
+  
+    margin-top: -16px ;
+    position: relative;
+    width: 100%;
+    
+    
+  }
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    position  : absolute;
+    top   : 100px;
+    
+   
+    color: white;
+    font-size: 30px;
+    
+    
+  }
+
+
+
+
+
+
+.car
+{ 
+  
+  
+  border-radius: 40%;
+   margin: 0 10px 20px 0 ;
+   display: inline-block;
+    background-color: #fff;
+    width: 80px;
+    height:160px;
+
+ 
+  margin: 0 0px 5px 0 ;
+  
+  
+  vertical-align: center;
+ border-radius: 7px;
+}
+
+ .car1
+{
+    
+    background-color: #20152c;
+  border-radius: 40%;
+   margin: 0 10px 20px 0 ; 
+   display: inline-block;
+    
+    width: 80px;
+    height:160px;
+
+ 
+  margin: 0 0px 5px 0 ;
+  
+  
+  vertical-align: center;
+ border-radius: 7px;
+}
+
+.car1 img {display: block;
+      margin: 50% 0;}
+  
+  .cnop a 
+  {
+    display: block;
+    color: black;
+    text-decoration:none ;
+    line-height: 30px;
+  }
+
+.vac
+  {       
+    width:  60%;        
+    background-color: #20152c;
+    margin: 12px auto 12px auto;
+    font-size: 12.5pt;
+    text-align: center;
+    color: #fff;
+     padding-top: 9px;
+    padding-bottom: 9px;
+  }
+
+  
+ 
+
+.vaccar
+{
+  padding: 10px 10px 0 10px;
+  display: block;
+}
+
+.filmnaz
+{
+
+  width:  56%;        
+    
+    margin: 12px auto 12px auto;
+    font-size: 12.5pt;
+    text-align: left;
+    color: #fff;
+     
+}
+
+.action
+{width:  50%;        
+    background-color: #fff;
+    margin: 30px auto 60px auto;
+    font-size: 12.5pt;
+    text-align: center;
+    color: #000;
+     padding-top: 30px;
+    padding-bottom: 30px;
+border-radius: 5px;
+  }
+
+
+  .mi
+{ display: inline-block;
+  width: 80px;
+  color: #fff;
+ 
+  vertical-align: top;
+  margin: 0px 0px 5px 15px ;
+text-align: left;
+}
+
+.mivse
+{ display: inline-block;
+  width: 80px;
+  color: #fff;
+ 
+  vertical-align: top;
+  margin: 0px 15px 40px 15px ;
+text-align: left;
+}
+
+.mivse a
+{ 
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.mi a
+{ 
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.cnop
+  {
+    
+   
+    margin: 20px 10px 20px 10px ;
+    padding: 1% 0 1%;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+  }
+
+  .cnop:hover
+  {
+      background-color: springgreen;
+      
+  }
+
+  .car:hover
+{
+    background-color: #20152c;
+    
+}
+ 
+
+ 
+
+ img {display: block;
+      margin: 10% 0;}
+.aa
+{
+
+  width:  56%;
+  
+  
+    margin: 8px auto 8px auto;
+    font-size: 12.5pt;
+    text-align: center;
+    color: #fff;
+     padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.aavse
+{width:  56%;
+  
+  
+    margin: 8px auto 8px auto;
+    font-size: 12.5pt;
+    text-align: left;
+    color: #fff;
+     padding-top: 9px;
+    padding-bottom: 20px;}
+
+
+
+@media (min-width: 0px) and (max-width: 900px) {
+
+.vac
+{width: 100%;
+margin: -2px;
+padding: 15px 0;
+
+}
+
+
+ }
+
+
