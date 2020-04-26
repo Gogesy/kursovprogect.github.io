@@ -4,13 +4,11 @@
       <title>Киносмотр</title>
       <link href="css/menu.css" rel="stylesheet" type="text/css">
       <link href="css/telo.css" rel="stylesheet" type="text/css">
+      <link href="css/teloanc.css" rel="stylesheet" type="text/css">
      
       <link rel="shortcut icon" href="images/logo.jpg" type="image/png">
       <meta name="viewpow" content="width=device-width">
       <meta charset="utf-8">
-
-
-
   </head>
 
   <body>
@@ -49,7 +47,7 @@
             <ul>
                 <li class="logo"><a href="index.html">Киносмотр</a></li>
               <li class="kont">  <a href="Add.html"> <img src="images/add-to-cart.png" width="30px" alt="Корзина"> </a> </li>
-                   <li class="kont">  <a href="VxodReg.html" class="knopka">Войти</a>  </li>
+                    <li class="kont">  <a href="VxodReg.html" class="knopka">Войти</a>  </li>
                 <li  class="kont">  <img src="images/download.png" width="30px" >  </li>
 
              </ul> 
@@ -65,21 +63,38 @@
       </header>
 
 
-
-<section class="content">
-
-         
-
-
-
-
-         <section class="Pk">	
+<section >  
                <div class="vac"> Фильмы</div>
+             <div class="vac">
+  <button class="button" onclick="document.getElementById('soon').style.display = 'none'; 
+  document.getElementById('now').style.display = 'inline';" type="button">Сегодня в кино</button>
+  <button class="button" onclick="document.getElementById('now').style.display = 'none';
+   document.getElementById('soon').style.display = 'inline';" type="button">Скоро в кино</button> </div>
 
- <div class="filmnaz">  Сегодня в кино    </div>
                 
-                <article class="aa">
-                 
+<section id="now"> 
+                <article class="aavse" >
+                  <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
+                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
+
+                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
+                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
+                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
+                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
+                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
+                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
+                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
+                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
+                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
+                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
+                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
+                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
+                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
+                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
+                </article>
+</section>
+<section id="soon"> 
+                <article class="aavse" >
                   <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
                     <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
                     <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
@@ -88,87 +103,20 @@
                     <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
                     <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
                     <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-
-                  	<div class="mi"><a href="Films.html"> <div class="car1"><div class="imf">
-                  	<img src="images/add.png" width="80px" /></div> </div> Другие фильмы  </a></div>
                   
-                  
-                </article>
-                 
-                 <div class="filmnaz">  Скоро в кино  </div>
-                <article class="aa">
-                 
-                  <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    
-                  	<div class="mi"><a href="Films.html"> <div class="car1"><div class="imf">
-                  	<img src="images/add.png" width="80px" /></div> </div> Другие фильмы </a></div>
-                  
-                  
-                </article>
-                  
-                  <article>
-
-                    <div class="vac">  Акции </div>
-
-                    
-                    <div class="action"> 
-                     По будням с 6:00 до 8:00 скидка 30%  </div>
                      
-                  </article>
+                </article>
+                 
+</section>                 
+              
 
 </section>
-
-
-</section>
-
-<article class="Mob">
-	    <div class="vac"> Фильмы</div>
-
- <div class="filmnaz">  Сегодня в кино    </div>
-                
-                <article class="aa">
-                 
-                  <div class="mi"><a href="супы.html"> <div class="car"><div class="imf">
-                  	<img src="aaa/1.jpg" width="80px" /></div> </div> Название </a></div>
-                  	
-                  	<div class="mi"><a href="Films.html"> <div class="car1"><div class="imf">
-                  	<img src="images/add.png" width="80px" /></div> </div> Другие фильмы  </a></div>
-                  
-                  
-                </article>
-                
-                 
-                 <div class="filmnaz">  Скоро в кино  </div>
-
-
-                
-                <article class="aa">
-                 
-                  <div class="mi"><a href="супы.html"> <div class="car"><div class="imf">
-                  	<img src="aaa/1.jpg" width="80px" /></div> </div> Название </a></div>
-                  	
-                  	<div class="mi"><a href="Films.html"> <div class="car1"><div class="imf">
-                  	<img src="images/add.png" width="80px" /></div> </div> Другие фильмы </a></div>
-                  
-                </article>
-</article>
 
 
         
-
-
-
-
-
-
-       <footer>
+</div>
+        
+         <footer>
           <section class="Mob">
 
 <div class="footer">
@@ -181,7 +129,7 @@
                      <li class="menufooter"><a href="Vacan.html">Вакансии</a></li><br>
             
 
-            <li class="menufooter"> <img src="images/vk.png" width="30px"  onclick="location.href='#'"/></li>
+            <li class="menufooter"> <img src="images/vk (1).png" width="30px"  onclick="location.href='#'"/></li>
             <li class="menufooter"> <img src="images/instagram.png" width="30px"  onclick="location.href='#'"/></li>
             <li class="menufooter"> <img src="images/telegram.png" width="30px" onclick="location.href='#'"/></li>
             <li class="menufooter"> <img src="images/twitter.png" width="30px" onclick="location.href='#'"/></li>
@@ -215,8 +163,6 @@
                      <li class="podnaz"  >© 2020,  «Киносмотр»</li>
 <section class="ssilkna">
            
-           
-
   <li class="pod"><a href="#" ><img src="images/vk.png" onmouseover=" this.src='images/vk1.png'" onmouseout="this.src='images/vk.png'" width="30px"></img></a></li>
 
 <li class="pod"><a href="#" ><img src="images/instagram.png" onmouseover=" this.src='images/instagram1.png'" onmouseout="this.src='images/instagram.png'" width="30px"></img></a></li>
@@ -225,13 +171,7 @@
 
 <li class="pod"><a href="#" ><img src="images/twitter.png" onmouseover=" this.src='images/twitter1.png'" onmouseout="this.src='images/twitter.png'" width="30px"></img></a></li>
 
-            
-
-
- </section>   
-
- 
-            
+ </section>               
                  
             </ul>  
           </div>

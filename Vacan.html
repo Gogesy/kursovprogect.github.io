@@ -3,14 +3,11 @@
   <head>
       <title>Киносмотр</title>
       <link href="css/menu.css" rel="stylesheet" type="text/css">
-      <link href="css/telo.css" rel="stylesheet" type="text/css">
-     
+      <link href="css/teloanc.css" rel="stylesheet" type="text/css">
+       <script src="js/myscript.js"></script>
       <link rel="shortcut icon" href="images/logo.jpg" type="image/png">
       <meta name="viewpow" content="width=device-width">
       <meta charset="utf-8">
-
-
-
   </head>
 
   <body>
@@ -64,111 +61,71 @@
 
       </header>
 
+<section class="telo">
+
+ <div class="vac"> Вакансии</div>
+
+<p class="cent">У нас открыты вакансии:</p>
+
+<dir class="text">
+  <p>Контролер-кассир</p>
+  <br>
+<li>Ты научишься сразу 2 профессиям:  Кассир, Контролер билетов</li>
+<li>Ты будешь зарабатывать деньги и получать премии</li>
+<li>Ты получишь прекрасную возможность вырасти по карьерной лестнице</li>
+
+<li>Ты выберешь удобный график, который подходит именно тебе - 2/2 или 5/2</li>
+
+</dir>
+<p class="cent">Присоединяйся!</p>
+<dir class="text">
+<div class="cent">
+
+ <form name= "formBak">
 
 
-<section class="content">
 
-         
+   <label><input type="text" name="surname" placeholder="Фамилия" onKeyUp="vacpravc(); 
+    if(/[^a-zA-Zа-яА-ЯёЁ]/i.test(this.value)){ urlsite=''; urlsite = this.value;  this.value = urlsite.slice (0, -1);  }" required></label><br>
+  <label><input type="text" name="name" placeholder="Имя" onKeyUp="vacpravc(); 
+    if(/[^a-zA-Zа-яА-ЯёЁ]/i.test(this.value)){ urlsite=''; urlsite = this.value;  this.value = urlsite.slice (0, -1);  }" required></label><br>
+
+
+ <label><input type="number" name="age" placeholder="Возраст" onKeyUp="vacpravc();  " required></label><br>
+ <select name="Gra" onKeyUp="vacpravc();">
+<option value="">Гражданство</option>
+<option value="1">Российское</option>
+<option vaue="2">Белорусское</option>
+<option value="3">Другое</option>
+
+</select><br>
+<label><input type="email" name="mail" placeholder="Почта" onKeyUp="vacpravc(); " required></label><br>
+  
+   <input type="button" class="vxod"  value="Выплнить" onclick="otprav();" name="btn"><br>
+  <input type="reset"  class="closs" onclick="sbros();" >
 
 
 
+</form></div>
+</dir>
 
-         <section class="Pk">	
-               <div class="vac"> Фильмы</div>
 
- <div class="filmnaz">  Сегодня в кино    </div>
-                
-                <article class="aa">
-                 
-                  <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-
-                  	<div class="mi"><a href="Films.html"> <div class="car1"><div class="imf">
-                  	<img src="images/add.png" width="80px" /></div> </div> Другие фильмы  </a></div>
-                  
-                  
-                </article>
-                 
-                 <div class="filmnaz">  Скоро в кино  </div>
-                <article class="aa">
-                 
-                  <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    <div class="mivse"><a href="films/Bilets.html"> <div class="car"><div class="imf">
-                    <img src="images/1.jpg" width="80px" /></div> </div> Название </a></div>
-                    
-                  	<div class="mi"><a href="Films.html"> <div class="car1"><div class="imf">
-                  	<img src="images/add.png" width="80px" /></div> </div> Другие фильмы </a></div>
-                  
-                  
-                </article>
-                  
-                  <article>
-
-                    <div class="vac">  Акции </div>
-
-                    
-                    <div class="action"> 
-                     По будням с 6:00 до 8:00 скидка 30%  </div>
-                     
-                  </article>
-
-</section>
 
 
 </section>
 
-<article class="Mob">
-	    <div class="vac"> Фильмы</div>
-
- <div class="filmnaz">  Сегодня в кино    </div>
-                
-                <article class="aa">
-                 
-                  <div class="mi"><a href="супы.html"> <div class="car"><div class="imf">
-                  	<img src="aaa/1.jpg" width="80px" /></div> </div> Название </a></div>
-                  	
-                  	<div class="mi"><a href="Films.html"> <div class="car1"><div class="imf">
-                  	<img src="images/add.png" width="80px" /></div> </div> Другие фильмы  </a></div>
-                  
-                  
-                </article>
-                
-                 
-                 <div class="filmnaz">  Скоро в кино  </div>
 
 
-                
-                <article class="aa">
-                 
-                  <div class="mi"><a href="супы.html"> <div class="car"><div class="imf">
-                  	<img src="aaa/1.jpg" width="80px" /></div> </div> Название </a></div>
-                  	
-                  	<div class="mi"><a href="Films.html"> <div class="car1"><div class="imf">
-                  	<img src="images/add.png" width="80px" /></div> </div> Другие фильмы </a></div>
-                  
-                </article>
-</article>
+
+
+
+
 
 
         
-
-
-
-
-
-
-       <footer>
+</div>
+        
+         <footer>
           <section class="Mob">
 
 <div class="footer">
@@ -181,7 +138,7 @@
                      <li class="menufooter"><a href="Vacan.html">Вакансии</a></li><br>
             
 
-            <li class="menufooter"> <img src="images/vk.png" width="30px"  onclick="location.href='#'"/></li>
+            <li class="menufooter"> <img src="images/vk (1).png" width="30px"  onclick="location.href='#'"/></li>
             <li class="menufooter"> <img src="images/instagram.png" width="30px"  onclick="location.href='#'"/></li>
             <li class="menufooter"> <img src="images/telegram.png" width="30px" onclick="location.href='#'"/></li>
             <li class="menufooter"> <img src="images/twitter.png" width="30px" onclick="location.href='#'"/></li>
@@ -214,9 +171,7 @@
                      <li class="podscot">Cчетчик посещений: </li>
                      <li class="podnaz"  >© 2020,  «Киносмотр»</li>
 <section class="ssilkna">
-           
-           
-
+          
   <li class="pod"><a href="#" ><img src="images/vk.png" onmouseover=" this.src='images/vk1.png'" onmouseout="this.src='images/vk.png'" width="30px"></img></a></li>
 
 <li class="pod"><a href="#" ><img src="images/instagram.png" onmouseover=" this.src='images/instagram1.png'" onmouseout="this.src='images/instagram.png'" width="30px"></img></a></li>
@@ -225,13 +180,7 @@
 
 <li class="pod"><a href="#" ><img src="images/twitter.png" onmouseover=" this.src='images/twitter1.png'" onmouseout="this.src='images/twitter.png'" width="30px"></img></a></li>
 
-            
-
-
- </section>   
-
- 
-            
+ </section>               
                  
             </ul>  
           </div>
